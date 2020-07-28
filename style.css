@@ -408,7 +408,17 @@ button:focus {
 	width: 100%;
 }
 
+.btn-outline-primary {
+	background-color: #f8f8f8;
+	color: #ee3267;
+	font-size: 30px;
+	
+}
 
+.btn-outline-primary:hover {
+	background-color: #ee3267;
+	color: white;
+}
 
 
 
