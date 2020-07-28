@@ -71,20 +71,54 @@
 			<div class="container">
 				<div class="mu-hero-area">
 
+					<img class="center-logo" src="assets/images/GS-Logo.jpg" alt="GS-Logo">
+
 					<!-- Start hero featured area -->
 					<div class="mu-hero-featured-area">
 						<!-- Start center Logo -->
 						<div class="mu-logo-area">
 							<!-- text based logo -->
-							<a class="mu-logo" href="#">I D E A T H O N</a>
-							
+							<h1 id="head-1" class="mu-logo"></h1>
+
+							<!-- <a class="mu-logo" href="#">I D E A T H O N</a> -->
+
+							<script src="https://cdn.jsdelivr.net/npm/typeit@7.X.X/dist/typeit.min.js"></script>
+							<script>
+								new TypeIt("#head-1", {
+								strings: "I D E A T H O N",
+							  }).go();
+							</script>
+
 						</div>
 						<!-- End center Logo -->
 
+						<!-- <script>						
+
+							function myLoop() {         //  create a loop function
+							  setTimeout(function() {   //  call a 3s setTimeout when the loop is called
+							    console.log('Delay loop');   //  your code here						                       
+							  }, 3000)
+							}
+
+							myLoop();    
+
+						</script> -->
+
+
 						<div class="mu-hero-featured-content">
 
-							<h1>Made in GS alwar</h1>
-							<p class="mu-event-date-line">20 - 24 August, 2020. ONLINE</p>
+							<h1 id="head-2"></h1>
+							<script>
+								new TypeIt("#head-2", {
+								strings: "Made in GS Alwar"
+							  }).go();
+							</script>
+
+							<p class="mu-event-date-line" id="head-3"></p>
+							<script>
+								new TypeIt("#head-3", {strings:"20 - 24 August, 2020 - Online Event"
+							  }).go();
+							</script>
 
 							<div class="mu-event-counter-area">
 								<div id="mu-event-counter">
