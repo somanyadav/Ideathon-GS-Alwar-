@@ -26,12 +26,21 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
 	<!-- Montserrat for title -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
  
- 
-	
+	<script>$(window).load(function() { 
+$("#status").fadeOut(3000); 
+$("#loader").delay(3000).fadeOut();
+});
+</script>
     
   </head>
   <body>
+    
+	<div id="loader">
+<div id="status"></div>
+</div>
   	
   	<!-- Start Header -->
 	<header id="mu-hero" class="" role="banner">
@@ -85,6 +94,8 @@
 
 							<h1>Made in GS alwar</h1>
 							<p class="mu-event-date-line">20 - 24 August, 2020. ONLINE</p>
+							<br>
+							<br><br>
 
 							<div class="mu-event-counter-area">
 								<div id="mu-event-counter">
