@@ -1,36 +1,3 @@
-
-/*
-Template Name: Eventoz	
-Author: MarkUps
-Author URI: http://www.markups.io/
-Version: 1.0
-*/
-
-
-/* Table of Content
-==================================================
-#BASIC TYPOGRAPHY
-#HEADER	
-#MENU 
-#ABOUT US
-#VIDEO
-#SCHEDULE
-#SPEAKERS
-#VENUE
-#PRICING PLANS
-#REGISTER FORM
-#FAQ
-#OUR
-#CONTACT US
-#FOOTER
-#RESPONSIVE STYLE
-*/
-
-
-/*--------------------*/
-/* BASIC TYPOGRAPHY */
-/*--------------------*/
-
 body,
 html {
 	overflow-x:hidden;
@@ -393,7 +360,7 @@ button:focus {
 
 
 /*--------------------*/
-/* ABOUT US */
+/* ABOUT IDEATHON */
 /*--------------------*/
 
 
@@ -446,7 +413,7 @@ button:focus {
 
 
 /*--------------------*/
-/* EVENT SCHEDULE */
+/* EVENT TIMELINE */
 /*--------------------*/
 
 #mu-schedule {
@@ -598,7 +565,7 @@ button:focus {
 
 
 /*--------------------*/
-/* SPEAKERS */
+/* EVENTS */
 /*--------------------*/
 
 
@@ -673,7 +640,7 @@ button:focus {
 
 
 /*--------------------*/
-/* VENUE */
+/* REWARDS */
 /*--------------------*/
 
 #mu-venue {
@@ -776,7 +743,7 @@ button:focus {
 }
 
 /*--------------------*/
-/* PRICING */
+/* MENTORS */
 /*--------------------*/
 
 
@@ -988,7 +955,7 @@ button:focus {
 
 
 /*--------------------*/
-/* SPONSORS */
+/* CONTACT US */
 /*--------------------*/
 
 #mu-sponsors {
@@ -1019,197 +986,6 @@ button:focus {
 	margin-top: 10px;
 	margin-bottom: 15px;
 	width: 100%;
-}
-
-
-/*--------------------*/
-/* FAQ */
-/*--------------------*/
-
-#mu-faq {
-	background-color: #f8f8f8;
-	display: inline;
-	float: left;
-	position: relative;
-	width: 100%;
-}
-
-.mu-faq-area {
-	display: inline;
-	float: left;
-	padding: 150px 0;
-	width: 100%;
-}
-
-.mu-faq-content {
-	display: inline;
-	float: left;
-	width: 100%;
-	text-align: center;
-	padding: 0 150px;
-	margin-top: 50px;
-}
-
-.mu-faq-content .panel-default {
-	border-radius: 0;
-	border-color: #fff;
-	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.06);
-}
-
-.mu-faq-content .panel-default > .panel-heading {
-	color: #333;
-	background-color: #fff;
-	border-color: #ddd;
-	padding: 0;
-
-}
-
-.mu-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
-	text-align: left;
-}
-
-
-.mu-faq-content .panel-title {
-	text-align: left;
-	font-weight: 300;
-}
-
-.mu-faq-content .panel-title a {
-	display: block;
-	padding: 12px 15px;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.mu-faq-content .panel-title a>span {
-	margin-right: 5px;
-}
-
-
-/*--------------------*/
-/* CONTACT US */
-/*--------------------*/
-
-#mu-contact {
-	background-color: #f8f8f8;
-	display: inline;
-	float: left;
-	width: 100%;
-}
-
-.mu-contact-area {
-	display: inline;
-	float: left;
-	padding: 100px 0 50px;
-	width: 100%;
-}
-
-.mu-contact-header {
-	display: inline;
-	float: left;
-	text-align: center;
-	width: 100%;
-	padding: 0 120px;
-}
-
-.mu-contact-content{
-	display: inline;
-	float: left;
-	margin-top: 50px;
-	padding: 0 20%;
-	width: 100%;
-}
-
-
-.mu-contact-form-area {
-	display: inline;
-	float: left;
-	width: 100%;
-}
-
-.mu-contact-form {
-	text-align: center;
-}
-
-.mu-contact-form .form-group input {
-	background: transparent;
-	border-radius: 5px;
-	color: #333;
-	font-size: 15px;
-	border: 1px solid #888;
-	height: 45px;
-	margin-bottom: 24px;
-}
-
-.mu-contact-form .form-group textarea {
-	background: transparent;
-	border: 1px solid #888;
-	border-radius: 5px;
-	color: #333;
-	font-size: 18px;
-	padding: 10px;
-	height: 190px;
-}
-
-.mu-contact-form .form-control:focus {
-	background-color: #fff;
-    outline: 0;
-    box-shadow: none;    
-} 
-
-.mu-contact-form .form-control::-webkit-input-placeholder {
-	color: #888;
-	font-size: 15px;
-}
-
-.mu-contact-form .form-control:-moz-placeholder { /* Firefox 18- */
-	color: #888;
-	font-size: 15px; 
-}
-
-.mu-contact-form .form-control::-moz-placeholder {  /* Firefox 19+ */
-	color: #888;
-	font-size: 15px;
-}
-
-.mu-contact-form .form-control:-ms-input-placeholder {  
-	color: #888;
-	font-size: 15px;
-}
-
-.mu-contact-form .button-default::after,
-.mu-contact-form .button-default > span {
-	padding: 12px 40px;  
-}
-
-#form-messages {
-	margin-bottom: 10px;
-    background-color: #fff;
-}
-
-.success {
-	padding: 1em;
-	margin-bottom: 0.75rem;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-	color: #468847;
-	background-color: #dff0d8;
-	border: 1px solid #d6e9c6;
-	-webkit-border-radius: 4px;
-	 -moz-border-radius: 4px;
-	      border-radius: 4px;
-}
-
-.error {
-	padding: 1em;
-	margin-bottom: 0.75rem;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-	color: #b94a48;
-	background-color: #f2dede;
-	border: 1px solid rgba(185, 74, 72, 0.3);
-	-webkit-border-radius: 4px;
-	 -moz-border-radius: 4px;
-	      border-radius: 4px;
 }
 
 
