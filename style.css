@@ -24,6 +24,10 @@ height: 100%;
 	text-align: center;
 }
 
+.overlay{
+	margin-left: 13%;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
@@ -664,7 +668,6 @@ button:focus {
 	float: left;
 	margin-top: 50px;
 	width: 100%;
-	margin-left: 13%;
 }
 
 .mu-single-speakers {
