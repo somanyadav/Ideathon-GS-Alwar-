@@ -119,7 +119,7 @@ kbd {
 	background-color: #ddd;
 	padding: 4px 6px;
 	border-radius: 2px;
-	color: ;
+	/* color: ; */
 }
 
 address {
@@ -204,11 +204,20 @@ button:focus {
 /* HEADER */
 /*--------------------*/
 
+.center-logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	padding-top: 5%;
+  }
+
 #mu-hero {
-	background-image: url("assets/images/head-featured-bg.jpg");
+	background-image: url("assets/images/GS-white-logo.png");
 	display: inline;
 	float: left;
 	width: 100%;
+	height: 90rem;
 	background-position: center center;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
@@ -218,8 +227,10 @@ button:focus {
 .mu-hero-overlay {
 	display: inline;
 	float: left;
-	opacity: 0.94;
+	opacity: 0.90;
 	width: 100%;
+	height: 90rem;
+
 }
 
 .mu-logo-area {
@@ -230,13 +241,14 @@ button:focus {
 }
 
 .mu-logo {
-	font-size: 70px;
+	font-size: 85px;
 	font-family: 'Montserrat', sans-serif;
-	display: inline-block;
+	display: block;
 	font-weight: 600;
 	background: #fff;
 	padding: 5px 20px;
 	margin-bottom: 30px;
+	/* width: 60%; */
 }
 
 
@@ -296,7 +308,7 @@ button:focus {
 	background-color: #fff;
 	color: #333;
 	padding: 5px 10px;
-	display: inline-block;
+	display: inline-flex;
 	margin-top: 10px;
 	font-weight: 600;
 }
