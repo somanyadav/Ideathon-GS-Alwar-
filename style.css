@@ -1024,6 +1024,10 @@ button:focus {
 /* CONTACT US */
 /*--------------------*/
 
+.contact-btn{
+	margin: 3.5rem 1.5rem;
+}
+
 #mu-sponsors {
 	background-color: #fff;
 	display: inline;
@@ -1125,10 +1129,10 @@ button:focus {
 
 
 /*--------------------*/
-/* RESPONSIVE STYLE */
+/* RESPONSIVE STYLE - Using Media Queries*/
 /*--------------------*/
 
-@media (max-width: 1199px) {
+@media (max-width: 1200px) {
 
 	.mu-register-content {
 		padding: 0 150px;
@@ -1339,9 +1343,15 @@ button:focus {
 		padding: 0 10%;
 	}
 				
-
 }
 
+/* For contact-us buttons */
+
+@media (max-width: 540px){   
+	.contact-btn{
+		margin: 1.5rem auto;
+	}
+}
 
 @media (max-width: 480px) {
 
