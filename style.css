@@ -20,6 +20,10 @@ height: 100%;
  margin: -100px 0 0 -100px;
 }
 
+.center-text{
+	text-align: center;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
@@ -158,6 +162,11 @@ button:focus {
 
 
 /* ========= BUTTON =========*/
+
+.register-button{
+	text-align: center;
+	margin: auto;
+}
 
 .mu-primary-btn {
 	background-color: transparent;
@@ -655,6 +664,7 @@ button:focus {
 	float: left;
 	margin-top: 50px;
 	width: 100%;
+	margin-left: 13%;
 }
 
 .mu-single-speakers {
@@ -1306,7 +1316,7 @@ button:focus {
 		width: 40px;
 	}
 
-		
+	
 		
 }
 
@@ -1359,6 +1369,10 @@ button:focus {
 /* Main media query for mobile devices */
 
 @media (max-width: 480px) {
+
+	.mu-speakers-content{
+		margin-left: 0%;
+	}
 
 	.mu-hero-overlay {
 		width: 100%;
