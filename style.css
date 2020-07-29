@@ -28,6 +28,7 @@ height: 100%;
 	margin-left: 13%;
 }
 
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
@@ -1601,3 +1602,7 @@ button:focus {
 	
 }
 
+.heading-styling{
+	color: #EE3268;
+	font-weight: 900;
+}
