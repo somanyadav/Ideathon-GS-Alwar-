@@ -243,11 +243,11 @@ button:focus {
 .mu-logo {
 	font-size: 85px;
 	font-family: 'Montserrat', sans-serif;
-	display: block;
+	display: inline-flex;
 	font-weight: 600;
 	background: #fff;
 	padding: 5px 20px;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 	/* width: 60%; */
 }
 
@@ -274,6 +274,8 @@ button:focus {
 
 
 /*=== Featured section ===*/
+
+
 
 .mu-hero-featured-area {
 	display: inline;
@@ -1280,6 +1282,8 @@ button:focus {
 		
 }
 
+/* Media query for laptop devices  */
+
 @media (max-width: 767px) {
 
 	.mu-logo img {
@@ -1352,15 +1356,40 @@ button:focus {
 	}
 }
 
+/* Main media query for mobile devices */
+
 @media (max-width: 480px) {
+
+	.mu-hero-overlay {
+		width: 100%;
+		height: 70rem;	
+	}
+
+	#mu-hero {
+		width: 100%;
+		height: 70rem;
+		
+	}
+
+	.center-logo{
+		width: 50%;
+		margin-top: 8%;
+	}
+
+	.idea-text{
+		text-align: center;
+		margin-top: 2rem;
+	}
 
 	body {
 		font-size: 14px;
 	}
 
 	.mu-logo {
-		margin-bottom: 10px;
-		font-size: 30px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		font-size: 42px;
+
 	}
 
 	.mu-hero-featured-area {
