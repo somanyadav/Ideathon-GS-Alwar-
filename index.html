@@ -26,12 +26,21 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
 	<!-- Montserrat for title -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
  
- 
-	
+	<script>$(window).load(function() { 
+$("#status").fadeOut(3000); 
+$("#loader").delay(3000).fadeOut();
+});
+</script>
     
   </head>
   <body>
+    
+	<div id="loader">
+<div id="status"></div>
+</div>
   	
   	<!-- Start Header -->
 	<header id="mu-hero" class="" role="banner">
@@ -107,18 +116,6 @@
 
 						<div class="mu-hero-featured-content">
 
-							<h1 id="head-2"></h1>
-							<script>
-								new TypeIt("#head-2", {
-								strings: "Made in GS Alwar"
-							  }).go();
-							</script>
-
-							<p class="mu-event-date-line" id="head-3"></p>
-							<script>
-								new TypeIt("#head-3", {strings:"20 - 24 August, 2020 - Online Event"
-							  }).go();
-							</script>
 
 							<div class="mu-event-counter-area">
 								<div id="mu-event-counter">
@@ -154,14 +151,14 @@
 								<div class="col-md-6">
 									<div class="mu-about-right">
 										<h2>About The Ideathon</h2>
-										<p>The time is tough, the time is to think. The time is to shape your
+										<p style="font-size:19px;padding-top:20px;">The time is tough, the time is to think. The time is to shape your
 ideas into reality. We all are busy in check listing our goals, we all
 are into growing.</p>
-										<p>We GS Alwar is coming up with an online Ideathon series with the hidden
+										<p style="font-size:19px;">We GS Alwar is coming up with an online Ideathon series with the hidden
 layers of phases or rounds need to be completed to win the badge of
 successful completion of this event.</p>
 
-										<p>This Pandemic will be used
+										<p style="font-size:19px;">This Pandemic will be used
 effectively to brainstorm,
 ideate, visualize and
 pitch your to-be product.
@@ -172,7 +169,7 @@ fore-front.</p>
 <br>
 <br>
 
-<center><button type="button" class="btn btn-outline-primary">Register Now</button></center>
+<center><div class="button-4"><div class="eff-4"></div><a href="#"> <b> Register Now ➜ </b> </a></div></center>
 
 									</div>
 								</div>
@@ -214,56 +211,51 @@ fore-front.</p>
 								    	<ul>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Breakfast</h3>
+								    				<p class="mu-event-time">1-15 Aug'2020</p>
+								    				<h3>Registration</h3>
 								    			</div>
 								    		</li>
 											<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Breakfast</h3>
+								    				<p class="mu-event-time">17 Aug'2020</p>
+								    				<h3>Webinar (Entrepreneurship)</h3>
 								    			</div>
 								    		</li>
 											<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Breakfast</h3>
+								    				<p class="mu-event-time">18-19 Aug'2020</p>
+								    				<h3>Online Submission</h3>
 								    			</div>
 								    		</li>
 											<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Breakfast</h3>
+								    				<p class="mu-event-time">20 Aug'2020</p>
+								    				<h3>Result of Ideathon</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-1.jpg" alt="event speaker">
-								    				<p class="mu-event-time">10.00 AM</p>
-								    				<h3>Entrepreneurship</h3>
-								    				<span>Webinar</span>
+								    				<p class="mu-event-time">21 Aug'2020</p>
+								    				<h3>Presentation Bootcamp</h3>
+								    				
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-2.jpg" alt="event speaker">
-								    				<p class="mu-event-time">11.00 AM</p>
-								    				<h3>Bootcamp</h3>
-								    				<span>Presentation</span>
+								    				<p class="mu-event-time">22-24 Aug'2020</p>
+								    				<h3>Idea Presentation</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
-								    				<p class="mu-event-time">12.00 AM</p>
-								    				<h3>Pitching</h3>
-								    				<span>By Teams</span>
+								    				<p class="mu-event-time">25 Aug'2020</p>
+								    				<h3>Pitching Bootcamp & Results</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">1.00 PM</p>
-								    				<h3>The End</h3>
+								    				<p class="mu-event-time">26 Aug'2020</p>
+								    				<h3>Final Showdown</h3>
 								    			</div>
 								    		</li>
 								    	</ul>
@@ -538,7 +530,8 @@ the participants.</h3>
 							pretium. Aenean fermentum nisl ac erat convallis varius. Fusce a elit luctus, lobortis lorem in, interdum tellus. Aenean convallis lacus tellus, eget suscipit urna condimentum
 							non. Morgilla at lectus vitae hendrerit. Sed sit amet ante quis velit faucibus ullamcorper. Nam lectus orci, venenatis ut sem sit amet, dignissim condimentum dui.</p>
 							</div>
-							<center><button type="button" class="btn btn-primary btn-lg">Join our Discord Server</button><center>
+							<center><button type="button" class="btn btn-primary btn-lg">Join our Discord Server</button>
+							<a style="padding-top:20px;" href="mailto:girlscriptalwar@gmail.com"><button type="button" class="btn btn-primary btn-lg">Contact through Mail</button><center></a>
 							
 
 						</div>
@@ -568,7 +561,8 @@ the participants.</h3>
 						</div>
 					</div>
 					<div class="mu-footer-bottom">
-						<p class="mu-copy-right">&copy; Copyright 2020, made with ♥ by <a rel="nofollow" href="#">GirlScript Alwar</a>. All right reserved.</p>
+						<p class="mu-copy-right">&copy; Copyright 2020, made by <a rel="nofollow" href="https://www.linkedin.com/in/soman-yadav-619416187/">Soman Yadav </a>and
+						<a rel="nofollow" href="https://www.linkedin.com/in/siddhesh-shinde-83896a198/">Siddhesh Shinde</a>. All right reserved.</p>
 					</div>
 				</div>
 			</div>

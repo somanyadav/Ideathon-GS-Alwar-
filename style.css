@@ -1,6 +1,23 @@
-body,
-html {
-	overflow-x:hidden;
+#loader  {
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: white;
+ z-index: 99;
+height: 100%;
+}
+#status  {
+ width: 200px;
+ height: 200px;
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ background-image: url("assets/images/load.gif");
+ background-repeat: no-repeat;
+ background-position: center;
+ margin: -100px 0 0 -100px;
 }
 
 body {
@@ -420,18 +437,44 @@ button:focus {
 	width: 100%;
 }
 
-.btn-outline-primary {
-	background-color: #f8f8f8;
-	color: #ee3267;
-	font-size: 30px;
-	
+.button-4{
+  width:140px;
+  height:50px;
+  border:1px solid #ee3267;
+  
+  text-align:center;
+  cursor:pointer;
+  position:relative;
+  box-sizing:border-box;
+  overflow:hidden;
+  margin:0 0 40px 50px;
 }
-
-.btn-outline-primary:hover {
-	background-color: #ee3267;
-	color: white;
+.button-4 a{
+  font-family:arial;
+  font-size:16px;
+  color:#ee3267;
+  text-decoration:none;
+  padding-left:3%;
+  line-height:50px;
+  transition:all .5s ease;
+  z-index:2;
+  position:relative;
 }
-
+.eff-4{
+  width:140px;
+  height:50px;
+  left:-140px;
+  background:#ee3267;
+  position:absolute;
+  transition:all .5s ease;
+  z-index:1;
+}
+.button-4:hover .eff-4{
+  left:0;
+}
+.button-4:hover a{
+  color:#f8f8f8;
+}
 
 
 /*--------------------*/
