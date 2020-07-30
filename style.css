@@ -28,6 +28,9 @@ body {
 	line-height: 1.5;
 	color: #1c1b1b;
 }
+.overlay{
+	margin-left: 20%;
+}
 
 ul {
 	padding: 0;
@@ -1395,7 +1398,10 @@ button:focus {
 	.mu-video-iframe-area iframe {
 		height: 250px;
 	}
-
+	
+    .overlay {
+	    margin-left: 0%;
+    }
 	h2 {
 		font-size: 28px;
 	}
@@ -1479,7 +1485,9 @@ button:focus {
 	.mu-video-area {
 		padding: 50px 0;
 	}
-
+    .overlay {
+	    margin-left: 0%;
+    }
 	.mu-video-iframe-area {
 		padding: 15% 5%;
 	}
@@ -1502,6 +1510,7 @@ button:focus {
 		left: 30px;
 		width: 280px;
 	}
+	
 }
 
 
@@ -1523,6 +1532,9 @@ button:focus {
 		font-size: 22px;
 	}
 	
+    .overlay {
+	    margin-left: 0%;
+    }	
 	
 	
 }
